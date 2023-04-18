@@ -4,11 +4,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/costum.css">
 	<title>Constructora</title>
 </head>
 <body>
 	<!-- NAVBAR -->
-	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+	<nav class="navbar navbar-inverse navbar-dark navbar-expand-lg bg-body-tertiary">
 	  <div class="container-fluid">
 	    <a class="navbar-brand" href="#top">
 	    	<img src="img/gcquatrologo.png" alt="Logo"  class="d-inline-block align-text-top">
@@ -34,7 +35,7 @@
 			<div class="row">
 				<!-- Column left-->
 				<div class="col-sm-6 texto-cotiza-izq">
-					<h1>Constructora Sonora</h1>
+					<h1>Constructora de Sonora</h1>
 					<br>
 					<p>Optimizando la contrución, llenando la expectativa de tu visión</p>
 					<h3>Especialistas en proyectos integrales, obra civil, comerciales, residenciales e industriales. </h3>
@@ -43,7 +44,7 @@
 				<div class="col-sm-6 texto-cotiza-der">
 					<div class="cotiza">
 						<img src="img/siluconstruct.png" alt="Constructora Sonora">
-						<a href="#" class="btn btn-outline-primary" role="button">Cotiza mi Proyecto</a>
+						<a href="#" class="btn btn-default btn-outline-primary" role="button">Cotiza mi Proyecto</a>
 					</div>
 				</div>
 			</div>
@@ -67,7 +68,7 @@
 	<!-- SECTION FOLOSOFIA EMPRESA -->
 	<section id="nosotros-wrapper">
 		<h2>Nosotros</h2>
-		<hr>
+		<hr class="border border-2 opacity-50">
 		<div class="container nosotros">
 			<div class="row">
 				<div class="col-sm-4 col-sm-4-nosotros">
@@ -80,20 +81,8 @@
 				</div>
 				<div class="col-sm-4 col-sm-4-nosotros">
 					<h3>Valores</h3>
-					<p>Responsabilidad</p>
-					<br>
-					<p>Compromiso</p>
-					<br>
-					<p>Integridad</p>
-					<br>
-					<p>Inovación</p>
-					<br>
-					<p>Eficiencia</p>
-					<br>
-					<p>Respeto</p>
-					<br>
-					<p>Calidad</p>
-					<br>
+					<p>Responsabilidad<br>Compromiso<br>Integridad<br>Inovación<br>Eficiencia<br>
+					Respeto<br>Calidad</p>
 				</div>
 			</div>
 		</div>
@@ -101,13 +90,13 @@
 	<!-- SECTION CONTACT -->
 	<section id="contacto-wrapper">
 		<h2>Contacto</h2>
-		<hr>
+		<hr class="border border-2 opacity-50">
 		<div class="container contacto">
 			<div class="row">
 				<!--  4 Column left-->
 				<div class="col-sm-4 col-sm-4-datos">
+					<h3><u>Nuestros Datos</u></h3>
 					<div class="datos">
-						<h3><u>Nuestros Datos</u></h3>
 						<h4>/GCQuatroCO/</h4>
 						<h4>662.210.4705</h4>
 						<h4>contacto@email.com</h4>
@@ -120,45 +109,32 @@
 				</div>
 				<!-- 8 Column right-->
 				<div class="col-sm-8 col-sm-8-forma">
+					<h3><u>Forma de Contacto</u></h3>
 					<div class="datos">
-						<h3><u>Forma de Contacto</u></h3>
+						<form action="">
+							<div class="form-group">
+								<label for="yorname" class="col-sm-4 control-label form-label">Nombre*</label>
+								<input type="text" name="yorname" id="yourname" placeholder="Escribe tu nombre" class="form-control input-sm" required>
+							</div>
+							<div class="form-group">
+								<label for="yourmail" class="col-sm-4 control-label form-label">Correo Electronico*</label>
+								<input type="text" name="yourmail" id="yourmail" placeholder="Escribe tu correo" class="form-control input-sm" required>
+							</div>
+							<div class="form-group">
+								<label for="numtel" class="col-sm-4 control-label form-label">Telefono</label>
+								<input type="text" name="numtel" id="numtel" placeholder="Escribe tu número de telefono" class="form-control input-sm" required>
+							</div>
+							<div class="form-group">
+								<label for="mensajetxt" class="col-sm-4 control-label form-label">Mensaje</label>
+								<textarea name="mensajetxt" id="mensajetxt" placeholder="Escribe tu mensaje. Puedes pedirnos una cotización o preguntar tus dudas" class="form-control" required></textarea>
+								<br>
+								<p>*Campos obligatorios</p>
+							</div>
+							<div class="form-group">
+								<button id="singlebutton" name="singlebutton" class="btn btn-primary btn-inverse">Enviar</button>
+							</div>
+						</form>
 					</div>
-					<form action="" class="form-horizontal">
-						<fieldset>
-							<div class="form-group">
-								<label for="yorname" class="col-sm-4 control-label">Nombre*</label>
-								<div class="col-sm-8 col-sm-8-forma">
-									<input type="text" name="yorname" id="yourname" placeholder="Escribe tu nombre" class="from-control input-sm" required>
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="yourmail" class="col-sm-4 control-label">Correo Electronico*</label>
-								<div class="col-sm-8 col-sm-8-forma">
-									<input type="text" name="yourmail" id="yourmail" placeholder="Escribe tu correo" class="from-control input-sm" required>
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="numtel" class="col-sm-4 control-label">Telefono</label>
-								<div class="col-sm-8 col-sm-8-forma">
-									<input type="text" name="numtel" id="numtel" placeholder="Escribe tu número de telefono" class="from-control input-sm" required>
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="mensajetxt" class="col-sm-4 control-label">Mensaje</label>
-								<div class="col-sm-8 col-sm-8-forma">
-									<textarea name="mensajetxt" id="mensajetxt" placeholder="Escribe tu mensaje. Puedes pedirnos una cotización o preguntar tus dudas" class="from-control" required></textarea>
-									<br>
-									<p>*Campos obligatorios</p>
-								</div>
-							</div>
-							<div class="form-group">
-								<label class="col-sm-4 control-label" for="singlebutton"></label>
-								<div class="col-sm-8 col-sm-forma">
-									<button id="singlebutton" name="singlebutton" class="btn btn-primary">Enviar</button>
-								</div>
-							</div>
-						</fieldset>
-					</form>
 				</div>
 			</div>
 		</div>

@@ -1,0 +1,147 @@
+body{
+	padding-top: 50px;
+}
+/* style globals */
+
+body{
+	background: #ccc url('../img/one-brick.jpg') no-repeat center center fixed;
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+	background-size: cover;
+	text-align: center;
+}
+body img{
+	width: 100%;
+}
+@font-face{
+	font-family: 'Aller Regular';
+	src: url("../fonts/aller.regular.ttf");
+}
+@font-face{
+	font-family: 'Aller Bold';
+	src: url("../fonts/aller.bold.ttf");
+}
+@font-face{
+	font-family: 'Aller Light';
+	src: url("../fonts/aller.light.ttf");
+}
+/* TIPOGRAFÍA */
+h1{
+	font-family: "Aller Bold", sans-serif;
+	font-size: 3.5em;
+}
+h2, h3{
+	font-family: "Aller Regular", sans-serif;
+}
+h2{
+	font-size: 3em;
+}
+h3{
+	font-size: 2em;
+}
+h4, p{
+	font-family: "Aller Light", sans-serif;
+	font-size: 1.3em;
+}
+/* SECTIONS */
+/*** NAVBAR ***/
+.navbar-brand{
+	padding: 4px 15px;
+	width: 260px;
+}
+.navbar-inverse{
+	background-color: #fff !important;
+	border-bottom: medium solid #ffc507 !important;
+}
+.navbar-inverse .navbar-toggler{
+	background: #770000;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: #770000;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #ffc507;
+	background-color: transparent;
+	text-transform: uppercase;
+}
+/*** HEADER ***/
+.btn-default{
+	background-color: #770000;
+	border-color: transparent;
+	color: #fff;
+	font-size: 2em;
+	margin-top: 15px;
+}
+.btn-default:hover{
+	background-color: #fff;
+	border-color: transparent;
+	color: #770000;
+}
+.texto-cotiza-der{
+	margin-top: 20px;
+}
+/** FRASE CELEBRE**/
+#frase-wrapper{
+	background-color: rgba(119, 0, 0, 0.5);
+	color: #fff;
+	margin-top:60px;
+}
+
+#frase-wrapper figcaption{
+	color:#000;
+	font-size: 1.2em;
+}
+
+/*** NOSOTROS ***/
+#nosotros-wrapper{
+	background: #ccc url("../img/concrete_seamless.png") repeat center center fixed;
+	border-bottom: 10px solid rgba(0,0,0,0.1);
+	border-top: 10px solid rgba(0,0,0,0.1);
+	color: #770000;
+	padding-bottom: 126px;
+}
+#nosotros-wrapper h2{
+	padding-top: 60px;
+}
+#nosotros-wrapper hr{
+	border-color: #770000 !important;
+}
+#nosotros-wrapper .container{
+	padding-top: 40px;
+}
+
+/*** CONTACT ***/
+#contacto-wrapper{
+	color: #ccc;
+	background: url("../img/callcat.jpg") no-repeat center center fixed;
+	background-size: cover;
+	margin-bottom: -20px;
+	padding-top: 40px;
+}
+#contacto-wrapper hr{
+	border-top: 2px solid #ccc;
+}
+.datos{
+	padding-bottom: 30px;
+}
+.btn-inverse{
+	color: #fff;
+	border-color: transparent;
+	background: #770000;
+}
+.btn-inverse:hover{
+	color: #770000;
+	border-color: transparent;
+	background: #fff;
+}
+/*FOOTER*/
+#footer-wrapper{
+	background-color: #770000;
+	color: #fff;
+	text-align: left;
+	margin-top: 15px;
+	border-top-width: 15px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-bottom: -20px;
+}
